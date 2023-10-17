@@ -1,0 +1,443 @@
+/* Body */
+body{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+}
+
+/* Navbar */
+.navbar{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: auto;
+}
+
+.navitemsdiv{
+    float: right;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+.navlogo{
+    padding-left: 70px;
+    
+}
+
+.navbar a.navitems{
+    text-align: center;
+    color: rgb(160, 160, 160);
+    padding: 10px 5px;
+    text-decoration: none;
+}
+
+.navbar a.active{
+    color: black;
+}
+
+.navbar a:hover{
+    color: black;
+}
+
+/* SectionOne */
+#sectionone{
+    position: relative;
+    display: block;
+    margin: auto;
+    background-image: url("../images/slide-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 856px;
+    width: 100%;
+    
+}
+
+.headercontent{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -30%);
+}
+
+.headercontent  h1{ 
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 50px;
+    font-size: 40px;
+    color: white;
+    
+}
+
+
+.fontedit{
+    font-size: 60px;
+}
+
+.hrcontent{
+    border: none;
+    border-bottom: 3px solid;
+    width: 20%;
+    color: white;
+    
+}
+
+.pcontent{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(219, 217, 217);
+    line-height: 2 ;
+    
+}
+
+.companybtn{
+    background-color: #223342;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.companybtn:hover{
+    background-color: #4e7292;
+}
+
+/* Sectiontwo */
+#sectiontwo{
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+
+.sectiontwocol{
+    width: 10%;
+}
+
+.sectiontwocol1{
+    width: 30%;
+    
+}
+
+.sectiontwocol2{
+    width: 50%;
+}
+
+#sectiontwo h1{
+    color: #223342;
+    line-height: 1.5;
+    font-size: 2rem;
+}
+
+#sectiontwo hr{
+    border: none;
+    border-bottom: 3px solid;
+    width: 18%;
+    color: #223342;
+    margin-left: 0;
+}
+
+#sectiontwo p{
+    color: rgb(180, 180, 180);
+    line-height: 2;
+    
+}
+
+.sectiontwop{
+    padding-top: 30px;
+}
+
+/* Sectionthree */
+#sectionthree{
+    display: flex;
+    flex-direction: row;
+    background-color:  #223342;
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#sectionthree p{
+    color: rgb(219, 217, 217);
+    line-height: 2;
+}
+
+.fa-3x{
+    padding-bottom: 30px;
+}
+
+.sectionthreecol{
+    width: 10%;
+}
+
+.sectionthreecol1{
+    width: 26.6%;
+    
+}
+
+.sectionthreecol2{
+    width: 26.6%;
+}
+
+.sectionthreecol3{
+    width: 26.6%;
+}
+
+/* Sectionfour */
+#sectionfour{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    /* padding-left: 200px;
+    padding-right: 80px; */
+}
+
+.sectionfourheader{
+    padding-left: 200px;
+}
+
+#sectionfour h1, .favcol, #sectionfour h3{
+    color: #223342;
+}
+
+#sectionfour h1{
+        font-size: 2rem;
+}
+
+
+#sectionfour hr{
+    border: none;
+    border-bottom: 3px solid;
+    width: 5%;
+    color: #223342;
+    margin-left: 0;
+    
+}
+
+#sectionfour p{
+    line-height: 2rem;
+    color: rgb(180, 180, 180);
+}
+
+.sectionfourrow1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.sectionfourrow2{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.sectionfourcol{
+    width: 10%;
+
+}
+
+.sectionfourcol1{
+    width: 26.6%;
+}
+
+.sectionfourcol2{
+    width: 26.6%;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.sectionfourcol3{
+    width: 26.6%;
+}   
+
+.sectionfourcards{
+    border: 1px solid #223342;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 73.5%;
+}
+
+.fa-4x{
+    padding-bottom: 30px;
+}
+
+/* Section five */
+#sectionfive{
+    display: flex;
+    flex-direction: row;
+    background-color: #223342;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#sectionfive h1, #sectionfive hr, #sectionfive p{
+    color: white;
+}
+
+#sectionfive h1{
+    font-size: 2rem;
+}
+
+#sectionfive hr{
+    border: none;
+    border-bottom: 3px solid;
+    width: 13%;
+    margin-left: 0;
+}
+
+#sectionfive p{
+    line-height: 2;
+    color: rgb(219, 217, 217);
+    padding-top: 20px;
+}
+
+.sectionfivecol{
+    width: 10%;
+}
+
+.sectionfivecol1{
+    width: 30%;
+}
+
+.sectionfivecol2{
+    padding-top: 30px;
+    width: 50%;
+}
+
+.inputs{
+    width: 47%;
+    border-radius: 5px;
+    border: 1px solid white;
+    background: none;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+}
+
+.inputs::placeholder{
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.inputmargin{
+    margin-left: 4%;
+}
+
+.inputmessage{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid white;
+    background: none;
+    height: 300px;
+    color: white;
+    font-size: 18px;
+}
+
+.inputmessage::placeholder{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.contactbutton{
+    background-color: white;
+    color: #223342;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 50px;
+}
+
+.contactbutton:hover{
+    background-color: #4e7292;
+    cursor: pointer;
+}
+
+
+/* Sectionsix */
+#sectionsix{
+    background-image: url("../images/counter-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 482px;
+    display: flex;
+    flex-direction: row;
+}
+
+#sectionsix h1{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 150px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    color: white;
+}
+
+.fontedit2{
+    font-size: 49px;
+}
+
+.sectionsixcol1{
+    position: relative;
+    width: 50%;
+}
+
+.sectionsixcol2{
+    width: 50%;
+    
+}
+
+.sampleimg{
+    position: absolute;
+    left: 45%;
+    top:20%;
+    height: 70%;
+}
+
+
+.sampleimg2{
+    position: absolute;
+    left: 50%;
+    top:10%;
+    height: 80%;
+}
+
+.sampleimg3{
+    position: absolute;
+    left: 55%;
+    top:50%;
+    height: 30%;
+}
+
+.sampleimg4{
+    position: absolute;
+    left: 57%;
+    top:20%;
+    height: 15%;
+}
+
+
+.viewnowbtn{
+    background-color: #223342;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.viewnowbtn:hover{
+    background-color: #4e7292;
+}
+
+/* Footer */
+footer p{
+   padding: 20px 0 20px 50px;
+   color: rgb(160, 160, 160);
+}
